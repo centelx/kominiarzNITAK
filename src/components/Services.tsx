@@ -18,7 +18,7 @@ export default function Services() {
       icon: Flame,
       title: 'Czyszczenie Przewodów',
       description: 'Mechaniczne usuwanie sadzy i gniazd. Zabezpiecz swój dom przed pożarem sadzy i zaczadzeniem.',
-      image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600',
+      image: 'https://images.unsplash.com/photo-1574334292321-4844f63aefef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=80&w=600',
     },
     {
       icon: Home,
