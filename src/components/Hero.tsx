@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center bg-[url('https://plus.unsplash.com/premium_photo-1664302339101-3bbaa8e58925?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cm9vZiUyMHN1bnNldCUyMHNpbGhvdWV0dGV8ZW58MHx8MHx8fDA%3D')] bg-cover bg-center">
+    <section id="home" className="relative h-screen flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1621274265492-095602927619?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center">
       {/* Overlay */}
       <div className="absolute inset-0 bg-slate-900/80 z-0"></div>
 
