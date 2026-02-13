@@ -50,7 +50,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800"
+              src="https://images.unsplash.com/photo-1722876720000-f39b65b7d4a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2VuaW9yJTIwY29uc3RydWN0aW9uJTIwd29ya2VyJTIwcG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&q=80&w=800"
               alt="Profesjonalny kominiarz przy pracy"
               className="rounded-lg shadow-2xl w-full h-auto"
             />
