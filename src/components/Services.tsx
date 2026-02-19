@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { ClipboardCheck, Flame, Home, FileCheck } from 'lucide-react';
+import { ClipboardCheck, Flame, Home, FileCheck, Wrench, CircleDot } from 'lucide-react';
 
 export default function Services() {
   const ref = useRef(null);
@@ -31,6 +31,18 @@ export default function Services() {
       title: 'System CEB (Ubezpieczenia)',
       description: 'Wpisy do Centralnej Ewidencji Emisyjności Budynków – niezbędne, aby Twoje ubezpieczenie domu działało.',
       image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=600',
+    },
+    {
+      icon: Wrench,
+      title: 'Montaż Kwasoodpornych Systemów Kominowych',
+      description: 'Profesjonalny montaż wkładów i systemów kominowych ze stali kwasoodpornej. Trwałe rozwiązania odporne na agresywne spaliny.',
+      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600',
+    },
+    {
+      icon: CircleDot,
+      title: 'Frezowanie Kominów',
+      description: 'Powiększanie przekroju przewodów kominowych metodą frezowania. Skuteczne rozwiązanie problemów z ciągiem kominowym.',
+      image: 'https://images.unsplash.com/photo-1588712757679-06a3428ce119?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpbW5leXxlbnwwfHwwfHx8MA%3D%3D',
     },
   ];
 

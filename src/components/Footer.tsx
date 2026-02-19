@@ -44,7 +44,7 @@ export default function Footer() {
             <div className="space-y-2 text-slate-400">
               <p>NIP: 9481813306</p>
               <p>Mistrz Kominiarski</p>
-              <p>Uprawnienia Budowlane</p>
+
               <Link to="/privacy-policy" className="block hover:text-orange-500 transition-colors">
                 Polityka Prywatności
               </Link>

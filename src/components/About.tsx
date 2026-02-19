@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Award, Building2, Shield, Clock } from 'lucide-react';
+import { Award, Shield, Clock } from 'lucide-react';
 
 export default function About() {
   const ref = useRef(null);
@@ -13,11 +13,7 @@ export default function About() {
       title: 'Mistrz Kominiarski',
       description: 'Pełne kwalifikacje mistrzowskie potwierdzone certyfikatami',
     },
-    {
-      icon: Building2,
-      title: 'Uprawnienia Budowlane',
-      description: 'Kompleksowa wiedza techniczna i prawna',
-    },
+
     {
       icon: Shield,
       title: '25 Lat Doświadczenia',
@@ -63,7 +59,7 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-700 leading-relaxed">
-              Nazywam się <span className="font-semibold text-slate-900">Cezary Nitak</span>. Od 25 lat dbam o bezpieczeństwo systemów kominowych w polskich domach. Posiadam tytuł <span className="font-semibold text-slate-900">Mistrza Kominiarskiego</span> oraz pełne uprawnienia budowlane.
+              Nazywam się <span className="font-semibold text-slate-900">Cezary Nitak</span>. Od 25 lat dbam o bezpieczeństwo systemów kominowych w polskich domach. Posiadam tytuł <span className="font-semibold text-slate-900">Mistrza Kominiarskiego</span>.
             </p>
             <p className="text-lg text-slate-700 leading-relaxed">
               Moja nowa działalność to gwarancja osobistego zaangażowania, terminowości i rzetelności, której wymaga praca z ogniem i wentylacją. Każde zlecenie traktuję z najwyższą starannością, wiedząc, że od mojej pracy zależy bezpieczeństwo Twojej rodziny.
@@ -78,7 +74,7 @@ export default function About() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6"
         >
           {features.map((feature, index) => {
             const Icon = feature.icon;
