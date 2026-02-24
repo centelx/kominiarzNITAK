@@ -1,6 +1,6 @@
 # Kominiarz-Nitek – Website created for a client.
 
-🌐 **Live Demo:** (https://kominiarznitak.pages.dev/)
+🌐 **Live Demo:** (https://kominiarz-nitak.pl/)
 
 ## 📖 About the Project
 A fully responsive and modern website developed for a real-world client. The main goal was to deliver a fast, user-friendly interface that meets the specific business requirements of the client.
